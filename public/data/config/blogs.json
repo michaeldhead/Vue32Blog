@@ -1,0 +1,30 @@
+{
+    "blogs": [
+        {
+            "id": "blog1",
+            "title": "Vue 3.2",
+            "tags": ["Vue", "CompositionAPI", "Vite", "Pinia"],
+            "cover": "blog1.jpg",
+            "des": "What is Compostion API, Pinia, and Vite",
+            "useNumbers": true,
+            "date": [
+                8,
+                30,
+                2022
+            ]            
+        },
+        {
+            "id": "blog2",
+            "title": "Vue 3.2 Blog",
+            "tags": ["Vue", "CompositionAPI", "Vite", "Pinia", "Blog", "Axios", "Bulma"],
+            "cover": "blog2.png",
+            "des": "A simple Vue 3.2 app written using Compostion API, Pinia, and Vite",
+            "useNumbers": false,
+            "date": [
+                9,
+                2,
+                2022
+            ]            
+        }     
+    ]
+}

@@ -1,0 +1,9 @@
+export { default as AboutView } from "./AboutView.vue";
+export { default as BlogView } from "./BlogView.vue";
+export { default as BlogsView } from "./BlogsView.vue";
+export { default as HomeView } from "./HomeView.vue";
+export { default as LinksView } from "./LinksView.vue";
+export { default as NotFoundView } from "./NotFoundView.vue";
+export { default as TagView } from "./TagView.vue";
+export { default as TagsView } from "./TagsView.vue";
+export { default as ToolsView } from "./ToolsView.vue";
