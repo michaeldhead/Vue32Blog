@@ -7,6 +7,7 @@
             "cover": "blog1.jpg",
             "des": "What is Compostion API, Pinia, and Vite",
             "useNumbers": true,
+            "live": true,
             "date": [
                 8,
                 30,
@@ -20,11 +21,26 @@
             "cover": "blog2.png",
             "des": "A simple Vue 3.2 app written using Compostion API, Pinia, and Vite",
             "useNumbers": false,
+            "live": true,
             "date": [
                 9,
                 2,
                 2022
             ]            
-        }     
+        },
+        {
+            "id": "blog3",
+            "title": "Vue 3.2 New Idea",
+            "tags": ["Vue", "Vite", "Pinia"],
+            "cover": "blog3.png",
+            "des": "Vue 3.2 New Idea Work In Progress",
+            "useNumbers": false,
+            "live": false,
+            "date": [
+                9,
+                6,
+                2022
+            ]            
+        }
     ]
 }

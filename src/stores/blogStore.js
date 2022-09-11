@@ -52,10 +52,24 @@ export const useBlogStore = defineStore("blogStore", () => {
           .get("/data/config/blogs.json")
           .then((response) => (myBlogs.value = response.data.blogs.reverse()));
       }
+      if (import.meta.env.PROD) {
+        filteredBlogs();
+      }
     } catch (error) {
       console.log(error);
     }
   }
+
+  /**
+   * Only display "Live" blogs in Production
+   */
+  const filteredBlogs = () => {
+    let tmpBlogs = myBlogs.value;
+    tmpBlogs = tmpBlogs.filter((item) => {
+      return item.live;
+    });
+    myBlogs.value = tmpBlogs;
+  };
 
   /**
    * Returns the requested Blog from the public/data/config/blogs.json file
